@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+/*___________________________ globais __________________________*/
+:root{
+    --fonttitle: 'Passion One', cursive;
+    --fontlink: Verdana, Geneva, Tahoma, sans-serif;
+    --fonttext: 'Sriracha', cursive;
+
+    --cor1: #000000;
+    --cor2: #ffffff;
+    --cor3: #fd5d22;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bolder;
+    font-family: var(--fontlink);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fd5d22;
+}
+
+/*____________________________ header __________________________*/
+header{
+    background: var(--cor1);
+    color: var(--cor2);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+header>h1{
+    font-family: var(--fonttitle);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header>p{
+    font-family: var(--fontlink);
+}
+/*_____________________________ main ___________________________*/
+section{
+    font-family: var(--fonttext);
+    padding: 10vh 0vh;
+    padding-left: 30px;
+    line-height: 2em;
+    text-align: left;
+    font-size: 3.5vw;
+}
+
+main p{
+    font-weight: normal;
+    display: inline-block;
+}
+
+#box1 {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#box2{
+    background-image: url(midia/background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px #000000a1;
+}
+
+#box2>p{
+    background-color: #0000006b;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000000;
+    padding: 0px 5px;
+}
+
+#box3 {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#box4 {
+    background-image: url(midia/background002.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px #000000ad;
+}
+
+#box4>p{
+    background-color: #0000006b;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000000;
+    padding: 0px 5px;
+}
+
+/*_____________________________ footer _________________________*/
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: var(--fontlink);
+    text-align: center;
+    padding: 10px;
+}
